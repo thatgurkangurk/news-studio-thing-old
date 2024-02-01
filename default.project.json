@@ -22,6 +22,24 @@
         }
       }
     },
+    "ServerStorage": {
+      "$path": "src/serverStorage",
+      "Events": {
+        "$className": "Folder",
+        "ToggleLights": {
+          "$className": "BindableEvent"
+        },
+        "FadeAllLights": {
+          "$className": "BindableEvent"
+        }
+      },
+      "SpotlightBrightness": {
+        "$className": "NumberValue",
+        "$properties": {
+          "Value": 2.72
+        }
+      }
+    },
     "Workspace": {
       "$properties": {
         "FilteringEnabled": true
