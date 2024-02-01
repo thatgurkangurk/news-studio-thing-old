@@ -25,6 +25,18 @@
     "Workspace": {
       "$properties": {
         "FilteringEnabled": true
+      },
+      "Studio": {
+        "$path": "models/StudioStructure.rbxmx",
+        "Screen": {
+          "$path": "models/Screen.rbxmx"
+        },
+        "ScreenControls": {
+          "$path": "models/ScreenControls.rbxmx"
+        },
+        "StageLights": {
+          "$path": "models/StageLights.rbxmx"
+        }
       }
     },
     "Lighting": {
