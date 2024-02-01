@@ -36,6 +36,9 @@
         },
         "StageLights": {
           "$path": "models/StageLights.rbxmx"
+        },
+        "LightControls": {
+          "$path": "models/LightControls.rbxmx"
         }
       }
     },
