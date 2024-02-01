@@ -49,9 +49,6 @@
         "Screen": {
           "$path": "models/Screen.rbxmx"
         },
-        "ScreenControls": {
-          "$path": "models/ScreenControls.rbxmx"
-        },
         "StageLights": {
           "$path": "models/StageLights.rbxmx"
         },
