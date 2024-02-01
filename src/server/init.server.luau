@@ -9,3 +9,6 @@ studio.Parent = Workspace
 
 local screen = Models.Screen:Clone()
 screen.Parent = studio
+
+local stageLights = Models.StageLights:Clone()
+stageLights.Parent = studio
