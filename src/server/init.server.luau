@@ -12,3 +12,6 @@ screen.Parent = studio
 
 local stageLights = Models.StageLights:Clone()
 stageLights.Parent = studio
+
+local screenControls = Models.ScreenControls:Clone()
+screenControls.Parent = studio
