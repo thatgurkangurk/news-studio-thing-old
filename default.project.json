@@ -45,6 +45,16 @@
         "$properties": {
           "Value": true
         }
+      },
+      "ScreenColour": {
+        "$className": "Color3Value",
+        "$properties": {
+          "Value": [
+            0,
+            0,
+            0
+          ]
+        }
       }
     },
     "Workspace": {
@@ -66,6 +76,9 @@
           "$className": "Folder",
           "ToggleScreen": {
             "$path": "models/ToggleScreen.rbxmx"
+          },
+          "ScreenColours": {
+            "$path": "models/ScreenColours.rbxmx"
           }
         }
       }
