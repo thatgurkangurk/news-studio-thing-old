@@ -4,9 +4,9 @@ local ToggleLightsServer = ServerStorage.Events.ToggleLights
 local FadeAllLights = ServerStorage.Events.FadeAllLights
 
 ToggleLightsServer.Event:Connect(function()
-    LightManager.ToggleAllLights()
+	LightManager.ToggleAllLights()
 end)
 
 FadeAllLights.Event:Connect(function()
-    LightManager.FadeAllLights()
+	LightManager.FadeAllLights()
 end)

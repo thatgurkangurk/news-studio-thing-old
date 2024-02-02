@@ -4,9 +4,9 @@ local ToggleLights = ServerStorage.Events.ToggleLights
 local FadeAllLights = ServerStorage.Events.FadeAllLights
 
 LightControls.ToggleLight.ToggleLight.Attachment.ProximityPrompt.Triggered:Connect(function()
-    ToggleLights:Fire()
+	ToggleLights:Fire()
 end)
 
 LightControls.FadeLightToggle.FadeLightToggle.Attachment.ProximityPrompt.Triggered:Connect(function()
-    FadeAllLights:Fire()
+	FadeAllLights:Fire()
 end)

@@ -6,72 +6,72 @@ local LightManager = {}
 
 LightManager.isTweenFinished = true
 
-local function tween(part: Part, duration: number, propertyTable: { [string]: any  })
-    local tweenInfo = TweenInfo.new(duration, Enum.EasingStyle.Linear)
-    local tween = TweenService:Create(part, tweenInfo, propertyTable)
+local function tween(part: Part, duration: number, propertyTable: { [string]: any })
+	local tweenInfo = TweenInfo.new(duration, Enum.EasingStyle.Linear)
+	local createdTween = TweenService:Create(part, tweenInfo, propertyTable)
 
-    return tween
+	return createdTween
 end
 
 function LightManager.ToggleAllLights()
-    for _, part: SpotLight in CollectionService:GetTagged("Spotlight") do
-        if part.Enabled then
-            part.Enabled = false
-            part.Parent.Transparency = 1
-        else
-            part.Enabled = true
-            part.Parent.Transparency = 0
-        end
-    end
+	for _, part: SpotLight in CollectionService:GetTagged("Spotlight") do
+		if part.Enabled then
+			part.Enabled = false
+			part.Parent.Transparency = 1
+		else
+			part.Enabled = true
+			part.Parent.Transparency = 0
+		end
+	end
 end
 
 function LightManager.FadeAllLights()
-    for _, light: SpotLight in CollectionService:GetTagged("Spotlight") do
-        local lampPart: Part = light.Parent
-        if not light.Enabled then
-            light.Enabled = true
-            local endBrightness = ServerStorage.SpotlightBrightness.Value
+	for _, light: SpotLight in CollectionService:GetTagged("Spotlight") do
+		local lampPart: Part = light.Parent
+		if not light.Enabled then
+			light.Enabled = true
+			local endBrightness = ServerStorage.SpotlightBrightness.Value
 
-            local lightTween = tween(light, 2, {
-                Brightness = endBrightness
-            })
+			local lightTween = tween(light, 2, {
+				Brightness = endBrightness,
+			})
 
-            lightTween:Play()
+			lightTween:Play()
 
-            local lampTween = tween(lampPart, 2, {
-                Transparency = 0
-            })
+			local lampTween = tween(lampPart, 2, {
+				Transparency = 0,
+			})
 
-            lampTween:Play()
+			lampTween:Play()
 
-            LightManager.isTweenFinished = false
+			LightManager.isTweenFinished = false
 
-            lightTween.Completed:Connect(function()
-                LightManager.isTweenFinished = true
-            end)
-        else
-            local endBrightness = 0
+			lightTween.Completed:Connect(function()
+				LightManager.isTweenFinished = true
+			end)
+		else
+			local endBrightness = 0
 
-            local lightTween = tween(light, 2, {
-                Brightness = endBrightness
-            })
+			local lightTween = tween(light, 2, {
+				Brightness = endBrightness,
+			})
 
-            lightTween:Play()
+			lightTween:Play()
 
-            local lampTween = tween(lampPart, 2, {
-                Transparency = 1
-            })
+			local lampTween = tween(lampPart, 2, {
+				Transparency = 1,
+			})
 
-            lampTween:Play()
+			lampTween:Play()
 
-            LightManager.isTweenFinished = false
+			LightManager.isTweenFinished = false
 
-            lightTween.Completed:Connect(function()
-                LightManager.isTweenFinished = true
-                light.Enabled = false
-            end)
-        end
-    end
+			lightTween.Completed:Connect(function()
+				LightManager.isTweenFinished = true
+				light.Enabled = false
+			end)
+		end
+	end
 end
 
 return LightManager
