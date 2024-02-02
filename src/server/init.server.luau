@@ -1,5 +1,6 @@
 local CollectionService = game:GetService("CollectionService")
 local ServerStorage = game:GetService("ServerStorage")
+
 print("server has started")
 
 -- set all lights to correct state

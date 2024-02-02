@@ -2,7 +2,7 @@
 	<Meta name="ExplicitAutoJoints">true</Meta>
 	<External>null</External>
 	<External>nil</External>
-	<Item class="Model" referent="RBX7D6C63F582CE49CD80BB0DD848431E9F">
+	<Item class="Model" referent="155">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -29,7 +29,7 @@
 				<Z>0</Z>
 			</Vector3>
 			<token name="ModelStreamingMode">0</token>
-			<string name="Name">screen</string>
+			<string name="Name">Screen</string>
 			<bool name="NeedsPivotMigration">false</bool>
 			<Ref name="PrimaryPart">null</Ref>
 			<float name="ScaleFactor">1</float>
@@ -52,7 +52,7 @@
 				</CFrame>
 			</OptionalCoordinateFrame>
 		</Properties>
-		<Item class="Part" referent="RBX75BD0A1A449F4ED7BA7A44CCD902664C">
+		<Item class="Part" referent="156">
 			<Properties>
 				<bool name="Anchored">true</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -149,7 +149,7 @@
 					<Z>187.899994</Z>
 				</Vector3>
 			</Properties>
-			<Item class="SurfaceGui" referent="RBX7D8A5AF1DBE94B0E9F52E17FA0A5CA1C">
+			<Item class="SurfaceGui" referent="157">
 				<Properties>
 					<bool name="Active">true</bool>
 					<Ref name="Adornee">null</Ref>
@@ -184,7 +184,7 @@
 					<token name="ZIndexBehavior">1</token>
 					<float name="ZOffset">0</float>
 				</Properties>
-				<Item class="Frame" referent="RBXDCD700E94D674A6CA663451A073526C9">
+				<Item class="Frame" referent="158">
 					<Properties>
 						<bool name="Active">false</bool>
 						<Vector2 name="AnchorPoint">
@@ -248,7 +248,7 @@
 						<int name="ZIndex">1</int>
 					</Properties>
 				</Item>
-				<Item class="TextLabel" referent="RBX522263A653F84502AF72A710D2D4E030">
+				<Item class="TextLabel" referent="159">
 					<Properties>
 						<bool name="Active">false</bool>
 						<Vector2 name="AnchorPoint">
@@ -340,7 +340,7 @@
 						<bool name="Visible">false</bool>
 						<int name="ZIndex">2</int>
 					</Properties>
-					<Item class="UIScale" referent="RBX482282581A4248B9B7FF522B441070F2">
+					<Item class="UIScale" referent="160">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -354,7 +354,7 @@
 				</Item>
 			</Item>
 		</Item>
-		<Item class="Part" referent="RBX02FFE23BB3E64963AA46001A9D0F5CBC">
+		<Item class="Part" referent="161">
 			<Properties>
 				<bool name="Anchored">true</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -452,7 +452,7 @@
 				</Vector3>
 			</Properties>
 		</Item>
-		<Item class="Part" referent="RBX9D24A45D9CE04F5AA93FAC302B8C5C7D">
+		<Item class="Part" referent="162">
 			<Properties>
 				<bool name="Anchored">true</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>

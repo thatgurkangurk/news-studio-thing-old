@@ -3,9 +3,7 @@
   "tree": {
     "$className": "DataModel",
     "ReplicatedStorage": {
-      "Shared": {
-        "$path": "src/shared"
-      },
+      "$path": "src/shared",
       "Models": {
         "$path": "models"
       }
@@ -31,12 +29,21 @@
         },
         "FadeAllLights": {
           "$className": "BindableEvent"
+        },
+        "ToggleScreen": {
+          "$className": "BindableEvent"
         }
       },
       "SpotlightBrightness": {
         "$className": "NumberValue",
         "$properties": {
           "Value": 2.72
+        }
+      },
+      "IsScreenOn": {
+        "$className": "BoolValue",
+        "$properties": {
+          "Value": true
         }
       }
     },
@@ -54,6 +61,12 @@
         },
         "LightControls": {
           "$path": "models/LightControls.rbxmx"
+        },
+        "ScreenControls": {
+          "$className": "Folder",
+          "ToggleScreen": {
+            "$path": "models/ToggleScreen.rbxmx"
+          }
         }
       }
     },
