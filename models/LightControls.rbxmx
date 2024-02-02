@@ -39,7 +39,7 @@
 				<CFrame>
 					<X>184.030334</X>
 					<Y>2.16422844</Y>
-					<Z>45</Z>
+					<Z>33</Z>
 					<R00>0.707106829</R00>
 					<R01>0.707106829</R01>
 					<R02>0</R02>
@@ -75,13 +75,13 @@
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
 						<X>183.5</X>
-						<Y>1.56068802</Y>
-						<Z>42</Z>
-						<R00>1</R00>
+						<Y>1.56070161</Y>
+						<Z>30</Z>
+						<R00>1.00000012</R00>
 						<R01>0</R01>
 						<R02>0</R02>
 						<R10>0</R10>
-						<R11>1</R11>
+						<R11>1.00000012</R11>
 						<R12>0</R12>
 						<R20>0</R20>
 						<R21>0</R21>
@@ -173,13 +173,13 @@
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
 						<X>183.5</X>
-						<Y>3</Y>
-						<Z>42</Z>
-						<R00>0.707106829</R00>
-						<R01>0.707106829</R01>
+						<Y>3.00001192</Y>
+						<Z>30</Z>
+						<R00>0.707106888</R00>
+						<R01>0.707106888</R01>
 						<R02>0</R02>
-						<R10>-0.707106829</R10>
-						<R11>0.707106829</R11>
+						<R10>-0.707106888</R10>
+						<R11>0.707106888</R11>
 						<R12>0</R12>
 						<R20>0</R20>
 						<R21>0</R21>
@@ -385,7 +385,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Attachment" referent="RBXCB7B2497E4EF48FAA44BADCD1D7CF264">
+				<Item class="Attachment" referent="RBX916E098E76C54DE6966BCFC91334E916">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
@@ -409,7 +409,7 @@
 						<BinaryString name="Tags"></BinaryString>
 						<bool name="Visible">false</bool>
 					</Properties>
-					<Item class="ProximityPrompt" referent="RBXF67285659DF34482BFD54EDB7C0B3925">
+					<Item class="ProximityPrompt" referent="RBX119A65823526406194742D2859B7C9DC">
 						<Properties>
 							<string name="ActionText">toggle</string>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -462,13 +462,13 @@
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
 						<X>183.5</X>
-						<Y>3</Y>
-						<Z>48</Z>
-						<R00>0.707106829</R00>
-						<R01>0.707106829</R01>
+						<Y>3.00001192</Y>
+						<Z>36</Z>
+						<R00>0.707106888</R00>
+						<R01>0.707106888</R01>
 						<R02>0</R02>
-						<R10>-0.707106829</R10>
-						<R11>0.707106829</R11>
+						<R10>-0.707106888</R10>
+						<R11>0.707106888</R11>
 						<R12>0</R12>
 						<R20>0</R20>
 						<R21>0</R21>
@@ -674,7 +674,7 @@
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Attachment" referent="RBX8786E2A29C9142FAACD7FBBC79803FD9">
+				<Item class="Attachment" referent="RBX6729995617A0468BB8D2A4C3DE4BE1CB">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
@@ -698,7 +698,7 @@
 						<BinaryString name="Tags"></BinaryString>
 						<bool name="Visible">false</bool>
 					</Properties>
-					<Item class="ProximityPrompt" referent="RBX53B1D88FC3034652B6A1ADDC8C5DCBC4">
+					<Item class="ProximityPrompt" referent="RBX74E15F405AD544358D212C2F8152F51D">
 						<Properties>
 							<string name="ActionText">toggle</string>
 							<BinaryString name="AttributesSerialize"></BinaryString>
@@ -741,13 +741,13 @@
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
 						<X>183.5</X>
-						<Y>1.56068802</Y>
-						<Z>48</Z>
-						<R00>1</R00>
+						<Y>1.56070161</Y>
+						<Z>36</Z>
+						<R00>1.00000012</R00>
 						<R01>0</R01>
 						<R02>0</R02>
 						<R10>0</R10>
-						<R11>1</R11>
+						<R11>1.00000012</R11>
 						<R12>0</R12>
 						<R20>0</R20>
 						<R21>0</R21>

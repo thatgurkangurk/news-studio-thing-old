@@ -18,3 +18,11 @@ end)
 ScreenControls.ScreenColours.Blue.Button.ProximityPrompt.Triggered:Connect(function()
 	ScreenColour.Value = Color3.fromRGB(0, 38, 255)
 end)
+
+ScreenControls.ScreenColours.White.Button.ProximityPrompt.Triggered:Connect(function()
+	ScreenColour.Value = Color3.fromRGB(255, 255, 255)
+end)
+
+ScreenControls.ScreenColours.Black.Button.ProximityPrompt.Triggered:Connect(function()
+	ScreenColour.Value = Color3.fromRGB(0, 0, 0)
+end)

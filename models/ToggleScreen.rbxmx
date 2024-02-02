@@ -2,7 +2,7 @@
 	<Meta name="ExplicitAutoJoints">true</Meta>
 	<External>null</External>
 	<External>nil</External>
-	<Item class="Model" referent="RBX3088C31753494230972C50A45FF434F5">
+	<Item class="Model" referent="RBX62E1A064CE42410A95F240CBCD852B8F">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -35,9 +35,24 @@
 			<float name="ScaleFactor">1</float>
 			<int64 name="SourceAssetId">-1</int64>
 			<BinaryString name="Tags"></BinaryString>
-			<OptionalCoordinateFrame name="WorldPivotData"></OptionalCoordinateFrame>
+			<OptionalCoordinateFrame name="WorldPivotData">
+				<CFrame>
+					<X>183.530334</X>
+					<Y>2.16422844</Y>
+					<Z>57</Z>
+					<R00>0.707106829</R00>
+					<R01>0.707106829</R01>
+					<R02>0</R02>
+					<R10>-0.707106829</R10>
+					<R11>0.707106829</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CFrame>
+			</OptionalCoordinateFrame>
 		</Properties>
-		<Item class="Part" referent="RBX5E9BBDBAF99044E7BAEDCA472AFDC023">
+		<Item class="Part" referent="RBX0B5637A0CF6B4365BCC650C91D1A3DBB">
 			<Properties>
 				<bool name="Anchored">true</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -50,14 +65,14 @@
 				<token name="BottomSurface">0</token>
 				<token name="BottomSurfaceInput">0</token>
 				<CoordinateFrame name="CFrame">
-					<X>183</X>
-					<Y>1.56068802</Y>
-					<Z>61</Z>
-					<R00>1</R00>
+					<X>182.999985</X>
+					<Y>1.56070161</Y>
+					<Z>57</Z>
+					<R00>1.00000012</R00>
 					<R01>0</R01>
 					<R02>0</R02>
 					<R10>0</R10>
-					<R11>1</R11>
+					<R11>1.00000012</R11>
 					<R12>0</R12>
 					<R20>0</R20>
 					<R21>0</R21>
@@ -135,7 +150,7 @@
 				</Vector3>
 			</Properties>
 		</Item>
-		<Item class="Part" referent="RBX493A24E483E54DE798E35A2041E4D52F">
+		<Item class="Part" referent="RBX70B97127510141109CA4229B41FD8802">
 			<Properties>
 				<bool name="Anchored">true</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -148,14 +163,14 @@
 				<token name="BottomSurface">0</token>
 				<token name="BottomSurfaceInput">0</token>
 				<CoordinateFrame name="CFrame">
-					<X>183</X>
-					<Y>3</Y>
-					<Z>61</Z>
-					<R00>0.707106829</R00>
-					<R01>0.707106829</R01>
+					<X>182.999985</X>
+					<Y>3.00001192</Y>
+					<Z>57</Z>
+					<R00>0.707106888</R00>
+					<R01>0.707106888</R01>
 					<R02>0</R02>
-					<R10>-0.707106829</R10>
-					<R11>0.707106829</R11>
+					<R10>-0.707106888</R10>
+					<R11>0.707106888</R11>
 					<R12>0</R12>
 					<R20>0</R20>
 					<R21>0</R21>
@@ -232,7 +247,7 @@
 					<Z>4</Z>
 				</Vector3>
 			</Properties>
-			<Item class="SurfaceGui" referent="RBXBAA0E00AF01C4537B227365C173ACE03">
+			<Item class="SurfaceGui" referent="RBX0F031CE6FFBE472FA6449454694E5533">
 				<Properties>
 					<bool name="Active">true</bool>
 					<Ref name="Adornee">null</Ref>
@@ -267,7 +282,7 @@
 					<token name="ZIndexBehavior">1</token>
 					<float name="ZOffset">0</float>
 				</Properties>
-				<Item class="TextLabel" referent="RBX24F402874D3746728F804F5F63D56EDD">
+				<Item class="TextLabel" referent="RBXECED8A4A167B4CF9BB0A7DE934BB7558">
 					<Properties>
 						<bool name="Active">false</bool>
 						<Vector2 name="AnchorPoint">
@@ -362,7 +377,7 @@
 					</Properties>
 				</Item>
 			</Item>
-			<Item class="ProximityPrompt" referent="RBXCC8E84F54C2246E986C796F077AEFAD9">
+			<Item class="ProximityPrompt" referent="RBX084BA087E5E0459CB3A53785A4EFE25F">
 				<Properties>
 					<string name="ActionText">turn screen off</string>
 					<BinaryString name="AttributesSerialize"></BinaryString>
@@ -375,7 +390,7 @@
 					<token name="GamepadKeyCode">1000</token>
 					<float name="HoldDuration">0</float>
 					<token name="KeyboardKeyCode">101</token>
-					<float name="MaxActivationDistance">10</float>
+					<float name="MaxActivationDistance">5</float>
 					<string name="Name">ProximityPrompt</string>
 					<string name="ObjectText">toggle</string>
 					<bool name="RequiresLineOfSight">false</bool>
