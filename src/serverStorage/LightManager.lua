@@ -1,17 +1,10 @@
 local CollectionService = game:GetService("CollectionService")
 local ServerStorage = game:GetService("ServerStorage")
-local TweenService = game:GetService("TweenService")
+local Utils = require(ServerStorage.Utils)
 
 local LightManager = {}
 
 LightManager.isTweenFinished = true
-
-local function tween(part: Part, duration: number, propertyTable: { [string]: any })
-	local tweenInfo = TweenInfo.new(duration, Enum.EasingStyle.Linear)
-	local createdTween = TweenService:Create(part, tweenInfo, propertyTable)
-
-	return createdTween
-end
 
 function LightManager.ToggleAllLights()
 	for _, part: SpotLight in CollectionService:GetTagged("Spotlight") do
@@ -32,13 +25,13 @@ function LightManager.FadeAllLights()
 			light.Enabled = true
 			local endBrightness = ServerStorage.SpotlightBrightness.Value
 
-			local lightTween = tween(light, 2, {
+			local lightTween = Utils.Tween(light, 2, {
 				Brightness = endBrightness,
 			})
 
 			lightTween:Play()
 
-			local lampTween = tween(lampPart, 2, {
+			local lampTween = Utils.Tween(lampPart, 2, {
 				Transparency = 0,
 			})
 
@@ -52,13 +45,13 @@ function LightManager.FadeAllLights()
 		else
 			local endBrightness = 0
 
-			local lightTween = tween(light, 2, {
+			local lightTween = Utils.Tween(light, 2, {
 				Brightness = endBrightness,
 			})
 
 			lightTween:Play()
 
-			local lampTween = tween(lampPart, 2, {
+			local lampTween = Utils.Tween(lampPart, 2, {
 				Transparency = 1,
 			})
 

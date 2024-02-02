@@ -40,6 +40,31 @@
           "Value": 2.72
         }
       },
+      "RoofLights": {
+        "$className": "Folder",
+        "Brightness": {
+          "$className": "NumberValue",
+          "$properties": {
+            "Value": 4
+          }
+        },
+        "Colour": {
+          "$className": "Color3Value",
+          "$properties": {
+            "Value": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        "Transparency": {
+          "$className": "NumberValue",
+          "$properties": {
+            "Value": 0
+          }
+        }
+      },
       "IsScreenOn": {
         "$className": "BoolValue",
         "$properties": {
@@ -80,6 +105,12 @@
           "ScreenColours": {
             "$path": "models/ScreenColours.rbxmx"
           }
+        },
+        "RoofLights": {
+          "$path": "models/RoofLights.rbxmx"
+        },
+        "RoofLightControls": {
+          "$path": "models/RoofLightControls.rbxmx"
         }
       }
     },
