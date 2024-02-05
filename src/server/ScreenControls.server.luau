@@ -1,5 +1,6 @@
 local ScreenControls = game.Workspace.Studio.ScreenControls
 local ServerStorage = game:GetService("ServerStorage")
+local Countdown = require(ServerStorage.Countdown)
 local ToggleScreen = ServerStorage.Events.ToggleScreen
 local ScreenColour = ServerStorage.ScreenColour
 
@@ -25,4 +26,8 @@ end)
 
 ScreenControls.ScreenColours.Black.Button.ProximityPrompt.Triggered:Connect(function()
 	ScreenColour.Value = Color3.fromRGB(0, 0, 0)
+end)
+
+ScreenControls.Countdown.Button.ProximityPrompt.Triggered:Connect(function()
+	Countdown.Start()
 end)

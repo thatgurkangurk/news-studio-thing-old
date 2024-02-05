@@ -40,6 +40,12 @@
           "Value": 2.72
         }
       },
+      "IsSpotlightOn": {
+        "$className": "BoolValue",
+        "$properties": {
+          "Value": true
+        }
+      },
       "RoofLights": {
         "$className": "Folder",
         "Brightness": {
@@ -86,6 +92,12 @@
       "$properties": {
         "FilteringEnabled": true
       },
+      "CountdownSound": {
+        "$className": "Sound",
+        "$properties": {
+          "SoundId": "rbxassetid://3735519646"
+        }
+      },
       "Studio": {
         "$path": "models/StudioStructure.rbxmx",
         "Screen": {
@@ -104,6 +116,9 @@
           },
           "ScreenColours": {
             "$path": "models/ScreenColours.rbxmx"
+          },
+          "Countdown": {
+            "$path": "models/Countdown.rbxmx"
           }
         },
         "RoofLights": {
