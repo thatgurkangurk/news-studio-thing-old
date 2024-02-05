@@ -2,7 +2,7 @@
 	<Meta name="ExplicitAutoJoints">true</Meta>
 	<External>null</External>
 	<External>nil</External>
-	<Item class="Model" referent="RBX62E1A064CE42410A95F240CBCD852B8F">
+	<Item class="Model" referent="314">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -37,14 +37,14 @@
 			<BinaryString name="Tags"></BinaryString>
 			<OptionalCoordinateFrame name="WorldPivotData">
 				<CFrame>
-					<X>183.530334</X>
-					<Y>2.16422844</Y>
-					<Z>57</Z>
-					<R00>0.707106829</R00>
-					<R01>0.707106829</R01>
+					<X>183.530319</X>
+					<Y>2.1642375</Y>
+					<Z>51</Z>
+					<R00>0.707106888</R00>
+					<R01>0.707106888</R01>
 					<R02>0</R02>
-					<R10>-0.707106829</R10>
-					<R11>0.707106829</R11>
+					<R10>-0.707106888</R10>
+					<R11>0.707106888</R11>
 					<R12>0</R12>
 					<R20>0</R20>
 					<R21>0</R21>
@@ -52,7 +52,7 @@
 				</CFrame>
 			</OptionalCoordinateFrame>
 		</Properties>
-		<Item class="Part" referent="RBX0B5637A0CF6B4365BCC650C91D1A3DBB">
+		<Item class="Part" referent="315">
 			<Properties>
 				<bool name="Anchored">true</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -65,14 +65,14 @@
 				<token name="BottomSurface">0</token>
 				<token name="BottomSurfaceInput">0</token>
 				<CoordinateFrame name="CFrame">
-					<X>182.999985</X>
-					<Y>1.56070161</Y>
-					<Z>57</Z>
-					<R00>1.00000012</R00>
+					<X>182.999969</X>
+					<Y>1.56068921</Y>
+					<Z>51</Z>
+					<R00>1.00000036</R00>
 					<R01>0</R01>
 					<R02>0</R02>
 					<R10>0</R10>
-					<R11>1.00000012</R11>
+					<R11>1.00000036</R11>
 					<R12>0</R12>
 					<R20>0</R20>
 					<R21>0</R21>
@@ -150,7 +150,7 @@
 				</Vector3>
 			</Properties>
 		</Item>
-		<Item class="Part" referent="RBX70B97127510141109CA4229B41FD8802">
+		<Item class="Part" referent="316">
 			<Properties>
 				<bool name="Anchored">true</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -163,14 +163,14 @@
 				<token name="BottomSurface">0</token>
 				<token name="BottomSurfaceInput">0</token>
 				<CoordinateFrame name="CFrame">
-					<X>182.999985</X>
-					<Y>3.00001192</Y>
-					<Z>57</Z>
-					<R00>0.707106888</R00>
-					<R01>0.707106888</R01>
+					<X>182.999969</X>
+					<Y>3.00000477</Y>
+					<Z>51</Z>
+					<R00>0.707107127</R00>
+					<R01>0.707107127</R01>
 					<R02>0</R02>
-					<R10>-0.707106888</R10>
-					<R11>0.707106888</R11>
+					<R10>-0.707107127</R10>
+					<R11>0.707107127</R11>
 					<R12>0</R12>
 					<R20>0</R20>
 					<R21>0</R21>
@@ -247,7 +247,7 @@
 					<Z>4</Z>
 				</Vector3>
 			</Properties>
-			<Item class="SurfaceGui" referent="RBX0F031CE6FFBE472FA6449454694E5533">
+			<Item class="SurfaceGui" referent="317">
 				<Properties>
 					<bool name="Active">true</bool>
 					<Ref name="Adornee">null</Ref>
@@ -282,7 +282,7 @@
 					<token name="ZIndexBehavior">1</token>
 					<float name="ZOffset">0</float>
 				</Properties>
-				<Item class="TextLabel" referent="RBXECED8A4A167B4CF9BB0A7DE934BB7558">
+				<Item class="TextLabel" referent="318">
 					<Properties>
 						<bool name="Active">false</bool>
 						<Vector2 name="AnchorPoint">
@@ -377,7 +377,7 @@
 					</Properties>
 				</Item>
 			</Item>
-			<Item class="ProximityPrompt" referent="RBX084BA087E5E0459CB3A53785A4EFE25F">
+			<Item class="ProximityPrompt" referent="319">
 				<Properties>
 					<string name="ActionText">turn screen off</string>
 					<BinaryString name="AttributesSerialize"></BinaryString>
