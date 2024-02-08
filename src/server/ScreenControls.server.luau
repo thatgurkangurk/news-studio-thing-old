@@ -1,8 +1,11 @@
 local ScreenControls = game.Workspace.Studio.ScreenControls
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local ServerStorage = game:GetService("ServerStorage")
 local Countdown = require(ServerStorage.Countdown)
 local ToggleScreen = ServerStorage.Events.ToggleScreen
 local ScreenColour = ServerStorage.ScreenColour
+local StartCountdownEvent = ReplicatedStorage.StartCountdown
+local SetScreenColour = ReplicatedStorage.SetScreenColour
 
 ScreenControls.ToggleScreen.Button.ProximityPrompt.Triggered:Connect(function()
 	ToggleScreen:Fire()
@@ -30,4 +33,14 @@ end)
 
 ScreenControls.Countdown.Button.ProximityPrompt.Triggered:Connect(function()
 	Countdown.Start()
+end)
+
+StartCountdownEvent.OnServerEvent:Connect(function()
+	Countdown.Start()
+end)
+
+SetScreenColour.OnServerEvent:Connect(function(_, colour)
+	if colour == "green" then
+		ScreenColour.Value = Color3.fromRGB(60, 255, 0)
+	end
 end)

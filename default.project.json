@@ -6,6 +6,12 @@
       "$path": "src/shared",
       "Models": {
         "$path": "models"
+      },
+      "StartCountdown": {
+        "$className": "RemoteEvent"
+      },
+      "SetScreenColour": {
+        "$className": "RemoteEvent"
       }
     },
     "ServerScriptService": {
@@ -39,6 +45,9 @@
         "ToggleScreen": {
           "$className": "BindableEvent"
         }
+      },
+      "Freecam": {
+        "$path": "models/Freecam.rbxmx"
       },
       "SpotlightBrightness": {
         "$className": "NumberValue",
