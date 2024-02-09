@@ -5,7 +5,7 @@ local SetScreenColour = ReplicatedStorage.SetScreenColour
 
 UserInputService.InputBegan:Connect(function(input)
 	if input.UserInputType == Enum.UserInputType.Keyboard then
-		if input.KeyCode == Enum.KeyCode.H then
+		if input.KeyCode == Enum.KeyCode.L then
 			StartCountdown:FireServer()
 		end
 
