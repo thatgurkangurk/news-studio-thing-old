@@ -113,6 +113,9 @@
           "SoundId": "rbxassetid://3735519646"
         }
       },
+      "Outside": {
+        "$path": "models/Outside.rbxmx"
+      },
       "Studio": {
         "$path": "models/StudioStructure.rbxmx",
         "Screen": {
