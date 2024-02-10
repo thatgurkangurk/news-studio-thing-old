@@ -158,6 +158,9 @@
         "GlobalShadows": true,
         "Outlines": false,
         "Technology": "Future"
+      },
+      "Sky": {
+        "$path": "models/Sky.rbxmx"
       }
     },
     "SoundService": {
