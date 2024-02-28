@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  '@rbxts/services':
+    specifier: ^1.5.4
+    version: 1.5.4
+
 devDependencies:
   '@rbxts/compiler-types':
     specifier: 2.3.0-types.0
@@ -132,6 +137,10 @@ packages:
   /@rbxts/compiler-types@2.3.0-types.0:
     resolution: {integrity: sha512-2kllUXLlK22OzSi3GmLT+/O70U9oB2iXp4rGFk5FLwc1pqf4W9EsInuJ0t7poLE2XnqnpW/ojff9CUNivI2+lw==}
     dev: true
+
+  /@rbxts/services@1.5.4:
+    resolution: {integrity: sha512-Klh+gRIT8zy3xRTX1YD6FZ9nAMzkzPLTHmciigt59PEF7PJXo31CF0IU0RegQ7VSMrz1iOnXwxbIwy3htcMfOA==}
+    dev: false
 
   /@rbxts/types@1.0.758:
     resolution: {integrity: sha512-r1IC/24TJjmZNR0IOt9u3wC7S1595MF3nNeMRkNn5ma9Ow9+Fggwrq5/rRY4rwQPPoyC3gDUfZ4EBlH9zn7UuQ==}

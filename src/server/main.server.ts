@@ -1,3 +1,2 @@
-import { makeHello } from "shared/module";
-
-print(makeHello("main.server.ts"));
+// setup events
+import "serverStorage/ServerEvents";

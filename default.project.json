@@ -10,18 +10,6 @@
 			"TS": {
 				"$path": "out/serverStorage"
 			},
-			"Events": {
-			  "$className": "Folder",
-			  "ToggleLights": {
-				"$className": "BindableEvent"
-			  },
-			  "FadeAllLights": {
-				"$className": "BindableEvent"
-			  },
-			  "ToggleScreen": {
-				"$className": "BindableEvent"
-			  }
-			},
 			"Freecam": {
 			  "$path": "models/Freecam.rbxmx"
 			},
