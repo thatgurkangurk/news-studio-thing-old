@@ -4,6 +4,7 @@ interface LightManager {
 	FadeIn(): void;
 	FadeOut(): void;
 	FadeAllLights(): void;
+	isTweenFinished: boolean;
 }
 
 // create a value from our type
