@@ -1,3 +1,2 @@
-import { makeHello } from "shared/module";
-
-print(makeHello("main.client.ts"));
+// setup events
+import "shared/SharedEvents";

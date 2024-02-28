@@ -86,12 +86,6 @@
 			},
 			"TS": {
 				"$path": "out/shared"
-			},
-			"StartCountdown": {
-			  "$className": "RemoteEvent"
-			},
-			"SetScreenColour": {
-			  "$className": "RemoteEvent"
 			}
 		},
 		"StarterPlayer": {
