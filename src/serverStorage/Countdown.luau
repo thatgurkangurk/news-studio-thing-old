@@ -5,10 +5,10 @@ local proximityPrompt = ScreenControls.Countdown.Button.ProximityPrompt
 local ClockText = game.Workspace.Studio.Screen.screen.SurfaceGui.ClockText
 local Audio = game.Workspace.CountdownSound
 local IsSpotlightOn = ServerStorage.IsScreenOn
-local LightManager = require(ServerStorage.LightManager)
-local ScreenManager = require(ServerStorage.ScreenManager)
-local RoofLightManager = require(ServerStorage.RoofLightManager)
-local Utils = require(ServerStorage.Utils)
+local LightManager = require(ServerStorage.TS.LightManager)
+local ScreenManager = require(ServerStorage.TS.ScreenManager)
+local RoofLightManager = require(ServerStorage.TS.RoofLightManager)
+local Utils = require(ServerStorage.TS.Utils)
 
 local Countdown = {}
 

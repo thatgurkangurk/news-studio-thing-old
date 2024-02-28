@@ -2,7 +2,7 @@ local BackgroundFrame = game.Workspace.Studio.Screen.screen.SurfaceGui.Frame
 local ServerStorage = game:GetService("ServerStorage")
 local IsScreenOn = ServerStorage.IsScreenOn
 local ScreenColour = ServerStorage.ScreenColour
-local Utils = require(ServerStorage.Utils)
+local Utils = require(ServerStorage.TS.Utils)
 
 local ScreenManager = {}
 

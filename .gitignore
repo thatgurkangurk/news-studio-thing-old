@@ -6,3 +6,7 @@
 /*.rbxl.lock
 
 deploy.bat
+/node_modules
+/out
+/include
+*.tsbuildinfo

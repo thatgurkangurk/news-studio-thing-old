@@ -1,6 +1,6 @@
 local CollectionService = game:GetService("CollectionService")
 local ServerStorage = game:GetService("ServerStorage")
-local Utils = require(ServerStorage.Utils)
+local Utils = require(ServerStorage.TS.Utils)
 local IsSpotlightOn = ServerStorage.IsSpotlightOn
 
 local LightManager = {}
