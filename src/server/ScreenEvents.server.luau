@@ -1,5 +1,5 @@
 local ServerStorage = game:GetService("ServerStorage")
-local ScreenManager = require(ServerStorage.ScreenManager)
+local ScreenManager = require(ServerStorage.TS.ScreenManager)
 local ToggleScreen = ServerStorage.Events.ToggleScreen
 
 ToggleScreen.Event:Connect(function()

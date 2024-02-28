@@ -5,7 +5,7 @@ local Brightness = ServerStorage.RoofLights.Brightness
 local Colour = ServerStorage.RoofLights.Colour
 local RoofLightControls = game.Workspace.Studio.RoofLightControls
 local RoofLights: { Part } = CollectionService:GetTagged("RoofLight")
-local RoofLightManager = require(ServerStorage.RoofLightManager)
+local RoofLightManager = require(ServerStorage.TS.RoofLightManager)
 
 RoofLightControls.ToggleLight.Button.ProximityPrompt.Triggered:Connect(function()
 	RoofLightManager.Toggle()

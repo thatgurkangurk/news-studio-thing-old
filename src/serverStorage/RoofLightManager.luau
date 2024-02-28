@@ -2,7 +2,7 @@ local ServerStorage = game:GetService("ServerStorage")
 local Transparency = ServerStorage.RoofLights.Transparency
 local Brightness = ServerStorage.RoofLights.Brightness
 local CollectionService = game:GetService("CollectionService")
-local Utils = require(ServerStorage.Utils)
+local Utils = require(ServerStorage.TS.Utils)
 local RoofLights: { Part } = CollectionService:GetTagged("RoofLight")
 
 local RoofLightManager = {}

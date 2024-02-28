@@ -1,6 +1,6 @@
 local LightControls = game.Workspace.Studio.LightControls
 local ServerStorage = game:GetService("ServerStorage")
-local LightManager = require(ServerStorage.LightManager)
+local LightManager = require(ServerStorage.TS.LightManager)
 local IsSpotlightOn = ServerStorage.IsSpotlightOn
 local CollectionService = game:GetService("CollectionService")
 local StageLights = CollectionService:GetTagged("Spotlight")

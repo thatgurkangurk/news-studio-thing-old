@@ -1,172 +1,192 @@
 {
-  "name": "news-studio-thing",
-  "tree": {
-    "$className": "DataModel",
-    "ReplicatedStorage": {
-      "$path": "src/shared",
-      "Models": {
-        "$path": "models"
-      },
-      "StartCountdown": {
-        "$className": "RemoteEvent"
-      },
-      "SetScreenColour": {
-        "$className": "RemoteEvent"
-      }
-    },
-    "ServerScriptService": {
-      "Server": {
-        "$path": "src/server"
-      }
-    },
-    "TextChatService": {
-      "$className": "TextChatService",
-      "$properties": {
-        "ChatVersion": "TextChatService"
-      }
-    },
-    "StarterPlayer": {
-      "StarterPlayerScripts": {
-        "Client": {
-          "$path": "src/client"
-        }
-      }
-    },
-    "ServerStorage": {
-      "$path": "src/serverStorage",
-      "Events": {
-        "$className": "Folder",
-        "ToggleLights": {
-          "$className": "BindableEvent"
-        },
-        "FadeAllLights": {
-          "$className": "BindableEvent"
-        },
-        "ToggleScreen": {
-          "$className": "BindableEvent"
-        }
-      },
-      "Freecam": {
-        "$path": "models/Freecam.rbxmx"
-      },
-      "SpotlightBrightness": {
-        "$className": "NumberValue",
-        "$properties": {
-          "Value": 2.72
-        }
-      },
-      "IsSpotlightOn": {
-        "$className": "BoolValue",
-        "$properties": {
-          "Value": true
-        }
-      },
-      "RoofLights": {
-        "$className": "Folder",
-        "Brightness": {
-          "$className": "NumberValue",
-          "$properties": {
-            "Value": 4
-          }
-        },
-        "Colour": {
-          "$className": "Color3Value",
-          "$properties": {
-            "Value": [
-              1,
-              1,
-              1
-            ]
-          }
-        },
-        "Transparency": {
-          "$className": "NumberValue",
-          "$properties": {
-            "Value": 0
-          }
-        }
-      },
-      "IsScreenOn": {
-        "$className": "BoolValue",
-        "$properties": {
-          "Value": true
-        }
-      },
-      "ScreenColour": {
-        "$className": "Color3Value",
-        "$properties": {
-          "Value": [
-            0,
-            0,
-            0
-          ]
-        }
-      }
-    },
-    "Workspace": {
-      "$properties": {
-        "FilteringEnabled": true
-      },
-      "CountdownSound": {
-        "$className": "Sound",
-        "$properties": {
-          "SoundId": "rbxassetid://3735519646"
-        }
-      },
-      "Outside": {
-        "$path": "models/Outside.rbxmx"
-      },
-      "Studio": {
-        "$path": "models/StudioStructure.rbxmx",
-        "Screen": {
-          "$path": "models/Screen.rbxmx"
-        },
-        "StageLights": {
-          "$path": "models/StageLights.rbxmx"
-        },
-        "LightControls": {
-          "$path": "models/LightControls.rbxmx"
-        },
-        "ScreenControls": {
-          "$className": "Folder",
-          "ToggleScreen": {
-            "$path": "models/ToggleScreen.rbxmx"
-          },
-          "ScreenColours": {
-            "$path": "models/ScreenColours.rbxmx"
-          },
-          "Countdown": {
-            "$path": "models/Countdown.rbxmx"
-          }
-        },
-        "RoofLights": {
-          "$path": "models/RoofLights.rbxmx"
-        },
-        "RoofLightControls": {
-          "$path": "models/RoofLightControls.rbxmx"
-        }
-      }
-    },
-    "Lighting": {
-      "$properties": {
-        "Ambient": [
-          0,
-          0,
-          0
-        ],
-        "Brightness": 2,
-        "GlobalShadows": true,
-        "Outlines": false,
-        "Technology": "Future"
-      },
-      "Sky": {
-        "$path": "models/Sky.rbxmx"
-      }
-    },
-    "SoundService": {
-      "$properties": {
-        "RespectFilteringEnabled": true
-      }
-    }
-  }
+	"name": "news-studio-thing",
+	"globIgnorePaths": [
+		"**/package.json",
+		"**/tsconfig.json"
+	],
+	"tree": {
+		"$className": "DataModel",
+		"ServerStorage": {
+			"TS": {
+				"$path": "out/serverStorage"
+			},
+			"Events": {
+			  "$className": "Folder",
+			  "ToggleLights": {
+				"$className": "BindableEvent"
+			  },
+			  "FadeAllLights": {
+				"$className": "BindableEvent"
+			  },
+			  "ToggleScreen": {
+				"$className": "BindableEvent"
+			  }
+			},
+			"Freecam": {
+			  "$path": "models/Freecam.rbxmx"
+			},
+			"SpotlightBrightness": {
+			  "$className": "NumberValue",
+			  "$properties": {
+				"Value": 2.72
+			  }
+			},
+			"IsSpotlightOn": {
+			  "$className": "BoolValue",
+			  "$properties": {
+				"Value": true
+			  }
+			},
+			"RoofLights": {
+			  "$className": "Folder",
+			  "Brightness": {
+				"$className": "NumberValue",
+				"$properties": {
+				  "Value": 4
+				}
+			  },
+			  "Colour": {
+				"$className": "Color3Value",
+				"$properties": {
+				  "Value": [
+					1,
+					1,
+					1
+				  ]
+				}
+			  },
+			  "Transparency": {
+				"$className": "NumberValue",
+				"$properties": {
+				  "Value": 0
+				}
+			  }
+			},
+			"IsScreenOn": {
+			  "$className": "BoolValue",
+			  "$properties": {
+				"Value": true
+			  }
+			},
+			"ScreenColour": {
+			  "$className": "Color3Value",
+			  "$properties": {
+				"Value": [
+				  0,
+				  0,
+				  0
+				]
+			  }
+			}
+		  },
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			"TS": {
+				"$path": "out/server"
+			}
+		},
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"rbxts_include": {
+				"$path": "include",
+				"node_modules": {
+					"$className": "Folder",
+					"@rbxts": {
+						"$path": "node_modules/@rbxts"
+					}
+				}
+			},
+			"TS": {
+				"$path": "out/shared"
+			},
+			"StartCountdown": {
+			  "$className": "RemoteEvent"
+			},
+			"SetScreenColour": {
+			  "$className": "RemoteEvent"
+			}
+		},
+		"StarterPlayer": {
+			"$className": "StarterPlayer",
+			"StarterPlayerScripts": {
+				"$className": "StarterPlayerScripts",
+				"TS": {
+					"$path": "out/client"
+				}
+			}
+		},
+		"Workspace": {
+			"$className": "Workspace",
+			"$properties": {
+				"FilteringEnabled": true
+			},
+			"CountdownSound": {
+				"$className": "Sound",
+				"$properties": {
+				  "SoundId": "rbxassetid://3735519646"
+				}
+			  },
+			  "Outside": {
+				"$path": "models/Outside.rbxmx"
+			  },
+			  "Studio": {
+				"$path": "models/StudioStructure.rbxmx",
+				"Screen": {
+				  "$path": "models/Screen.rbxmx"
+				},
+				"StageLights": {
+				  "$path": "models/StageLights.rbxmx"
+				},
+				"LightControls": {
+				  "$path": "models/LightControls.rbxmx"
+				},
+				"ScreenControls": {
+				  "$className": "Folder",
+				  "ToggleScreen": {
+					"$path": "models/ToggleScreen.rbxmx"
+				  },
+				  "ScreenColours": {
+					"$path": "models/ScreenColours.rbxmx"
+				  },
+				  "Countdown": {
+					"$path": "models/Countdown.rbxmx"
+				  }
+				},
+				"RoofLights": {
+				  "$path": "models/RoofLights.rbxmx"
+				},
+				"RoofLightControls": {
+				  "$path": "models/RoofLightControls.rbxmx"
+				}
+			  }
+			},
+			"Lighting": {
+			  "$properties": {
+				"Ambient": [
+				  0,
+				  0,
+				  0
+				],
+				"Brightness": 2,
+				"GlobalShadows": true,
+				"Outlines": false,
+				"Technology": "Future"
+			  },
+			  "Sky": {
+				"$path": "models/Sky.rbxmx"
+			  }
+		},
+		"HttpService": {
+			"$className": "HttpService",
+			"$properties": {
+				"HttpEnabled": true
+			}
+		},
+		"SoundService": {
+			"$className": "SoundService",
+			"$properties": {
+				"RespectFilteringEnabled": true
+			}
+		}
+	}
 }
